@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	dto "github.com/m3db/prometheus_client_model/go"
+	dto "github.com/prometheus/client_model/go"
 
-	"github.com/m3db/prometheus_common/model"
+	"github.com/prometheus/common/model"
 )
 
 func TestTextDecoder(t *testing.T) {

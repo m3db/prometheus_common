@@ -14,7 +14,7 @@
 package flag
 
 import (
-	"github.com/m3db/prometheus_common/promlog"
+	"github.com/prometheus/common/promlog"
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
 
