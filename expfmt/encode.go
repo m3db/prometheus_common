@@ -22,7 +22,7 @@ import (
 	"github.com/m3db/prometheus_common/internal/bitbucket.org/ww/goautoneg"
 	"github.com/matttproud/golang_protobuf_extensions/pbutil"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/m3db/prometheus_client_model/go"
 )
 
 // Encoder types encode metric families into an underlying wire protocol.
