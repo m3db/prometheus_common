@@ -1,4 +1,4 @@
-module github.com/prometheus/common
+module github.com/m3db/prometheus_common
 
 require (
 	github.com/go-kit/log v0.2.0
