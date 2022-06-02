@@ -22,8 +22,8 @@ import (
 
 	dto "github.com/prometheus/client_model/go"
 
+	"github.com/m3db/prometheus_common/model"
 	"github.com/matttproud/golang_protobuf_extensions/pbutil"
-	"github.com/prometheus/common/model"
 )
 
 // Decoder types decode an input stream into metric families.

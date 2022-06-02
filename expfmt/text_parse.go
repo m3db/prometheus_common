@@ -25,7 +25,7 @@ import (
 	dto "github.com/prometheus/client_model/go"
 
 	"github.com/golang/protobuf/proto" //nolint:staticcheck // Ignore SA1019. Need to keep deprecated package for compatibility.
-	"github.com/prometheus/common/model"
+	"github.com/m3db/prometheus_common/model"
 )
 
 // A stateFn is a function that represents a state in a state machine. By

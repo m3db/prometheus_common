@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/prometheus/common/model"
+	"github.com/m3db/prometheus_common/model"
 
 	dto "github.com/prometheus/client_model/go"
 )
