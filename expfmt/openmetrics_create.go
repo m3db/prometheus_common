@@ -24,7 +24,7 @@ import (
 
 	"github.com/m3db/prometheus_common/model"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/m3db/prometheus_client_model/go"
 )
 
 // MetricFamilyToOpenMetrics converts a MetricFamily proto message into the
