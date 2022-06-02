@@ -12,6 +12,7 @@
 // limitations under the License.
 
 // Build only when actually fuzzing
+//go:build gofuzz
 // +build gofuzz
 
 package expfmt
@@ -20,7 +21,7 @@ import "bytes"
 
 // Fuzz text metric parser with with github.com/dvyukov/go-fuzz:
 //
-//     go-fuzz-build github.com/prometheus/common/expfmt
+//     go-fuzz-build github.com/m3db/prometheus_common/expfmt
 //     go-fuzz -bin expfmt-fuzz.zip -workdir fuzz
 //
 // Further input samples should go in the folder fuzz/corpus.

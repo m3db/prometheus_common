@@ -1,1 +1,1 @@
-* Fabian Reinartz <fabian.reinartz@coreos.com>
+* Julien Pivotto <roidelapluie@prometheus.io> @roidelapluie
