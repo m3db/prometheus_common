@@ -4,7 +4,7 @@ require (
 	github.com/go-kit/log v0.2.0
 	github.com/golang/protobuf v1.5.2
 	github.com/julienschmidt/httprouter v1.3.0
-	github.com/m3db/prometheus_client_golang v1.12.6
+	github.com/m3db/prometheus_client_golang v1.12.7
 	github.com/m3db/prometheus_client_model v0.2.1
 	github.com/matttproud/golang_protobuf_extensions v1.0.1
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f
